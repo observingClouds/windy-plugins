@@ -29,7 +29,7 @@
 
     removeFile()
 
-    const url = `https://www.windy.com/img/windy-plugins/a.${f}`
+    const url = `https://gist.githubusercontent.com/observingClouds/0b7aae90f77e7906346344aa1fb7d070/raw/149eac5934a75573dda58c4a3ca3fea9f17dea0c/a.kml`
 
     console.log('Loading:',url)
 
@@ -39,7 +39,7 @@
       case 'wkt': map.setView([26,26],4); break;
       case 'csv': map.setView([50,14],4); break;
       case 'gpx': map.setView([44.9,6.05],11); break;
-      case 'kml': map.setView([37,-120],8); break;
+      case 'kml': map.setView([11,-52],7); break;
       case 'polyline': map.setView([40,-121],6); break;
       case 'topojson': map.setView([51,52],3); break;
     }
